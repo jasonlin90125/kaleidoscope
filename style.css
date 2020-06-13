@@ -1,0 +1,84 @@
+html {
+  font-family: "Avenir Next", Helevetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: lightskyblue;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding: 5px;
+}
+
+#input {
+  width: 350px;
+  height: 45px;
+  min-height: 45px;
+  max-height: 180px;
+  min-width: 350px;
+  max-width: 350px;
+  font-size: 25px;
+  border: 0;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#enter {
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-right: 32px solid transparent;
+  border-left: 32px solid lightskyblue;
+  margin-left: 10px;
+}
+
+#bar {
+  margin-top: 30px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: inline-block;
+  max-width: 80%;
+  justify-content: left;
+}
+
+#list li {
+  width: 450px;
+  height: 250px;
+  background: #c7c7c7;
+  font-size: 40px;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#list div {
+  background: lightskyblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px 150px 0px;
+}
+
+#list li:hover {
+  text-decoration: line-through;
+}
+
+#list p {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0 auto;
+}
